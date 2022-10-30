@@ -1,3 +1,7 @@
+/*
+* This activity is responsible for handling all of the main actions that occur on the main game view.
+* Author: Tyler Moody
+* */
 package com.example.noobmaster;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -31,14 +35,12 @@ public class GameActivity extends AppCompatActivity {
     TextView tvSwipeToStart, tvZone1, tvZone2, tvZone3, tvZone4;
     TextView[] tvZones;
     GameZone[] gameZones;
-
     TextView currentZone;
     SharedPreferences settingPreference;
     GestureDetector simpleGestureDetector;
     ScaleGestureDetector scaleGestureDetector;
     GameManager gameManager;
     boolean gameStarted = false;
-    String TAG = "testing";
     String lastZoomValue;
     double lastValue = 0;
     int statusBarHeight;

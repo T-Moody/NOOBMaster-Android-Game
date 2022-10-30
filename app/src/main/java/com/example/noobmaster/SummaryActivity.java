@@ -1,3 +1,7 @@
+/*
+* The SummaryActivity is responsible for displaying the previous games statistics to the user.
+* */
+
 package com.example.noobmaster;
 
 import androidx.appcompat.app.AppCompatActivity;

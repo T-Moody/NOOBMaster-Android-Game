@@ -1,3 +1,6 @@
+/*
+* The GameManager class is responsible for handling all of the data processed during an active game.
+* */
 package com.example.noobmaster;
 
 import java.text.DecimalFormat;

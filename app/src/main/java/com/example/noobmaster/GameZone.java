@@ -1,3 +1,7 @@
+/*
+* The GameZone class is responsible for holding the coordinates of a zone, retaining the zone number
+* and detecting if a set of coordinates are within a zone.
+* */
 package com.example.noobmaster;
 
 public class GameZone {

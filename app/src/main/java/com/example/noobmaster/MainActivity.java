@@ -1,3 +1,6 @@
+/*
+ * The MainActivity class is responsible for routing the user to the settings view or the game view.
+ */
 package com.example.noobmaster;
 
 import androidx.appcompat.app.AppCompatActivity;

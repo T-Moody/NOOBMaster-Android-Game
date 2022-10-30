@@ -1,3 +1,7 @@
+/*
+* This class is responsible for handling the settings view. The user will be able to set their game
+* settings here and the settings will be applied to the next game that the user starts.
+* */
 package com.example.noobmaster;
 
 import androidx.appcompat.app.AppCompatActivity;
